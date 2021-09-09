@@ -32,3 +32,106 @@
 
 /* photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+/* places */
+@import url(../blocks/places/places.css);
+
+/* place */
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+
+
+
+/* media */
+@media (max-width: 1024px) {
+   .photo-grid {
+     grid-template-columns: repeat(3, 300px);
+     gap: 14px;
+     margin-left: 48px;
+   }
+ }
+ 
+ @media (max-width: 768px) {
+   .photo-grid {
+     grid-template-columns: repeat(2, 352px);
+     gap: 16px;
+     margin-left: 24px;
+   }
+
+   .intro {
+      margin-left: 24px;
+   }
+
+   .places {
+      margin: 88px 0 0 24px;
+      gap: 73px;
+   }
+
+   .place {
+      column-gap: 20px;
+   }
+
+   .place__title {
+      font-size: 2.625rem;
+      line-height: 110%;
+   }
+
+ }
+ 
+ @media (max-width: 320px) {
+   .photo-grid {
+     grid-template-columns: repeat(1, 288px);
+     gap: 12px;
+     margin-left: 16px;
+   }
+
+   .header__logo {
+      width: 142px;
+   }
+
+   .header__lang-link {
+      font-size: 1.125rem;
+   }
+
+   .lead__title {
+      font-size: 2.5rem;
+   }
+
+   .lead__subtitle {
+      font-size: 1rem;
+   }
+
+   .intro {
+      margin-left: 16px;
+   }
+
+   .intro__title {
+      font-size: 2rem;
+   }
+
+   .places {
+      margin: 64px 0 0 16px;
+      gap: 50px;
+   }
+
+   .place {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 32px;
+   }
+
+   .place__title {
+      font-size: 2rem;
+      line-height: 109%;
+   }
+
+   .place__image {
+      margin-left: -16px;
+   }
+ }
