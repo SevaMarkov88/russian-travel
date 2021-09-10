@@ -1,0 +1,10 @@
+.footer__link {
+  color: inherit;
+  text-decoration: none;
+  line-height: 112%;
+  transition: opacity 0.5s ease;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
