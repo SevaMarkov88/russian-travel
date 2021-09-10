@@ -2,22 +2,46 @@
 
 ### Обзор
 * Интро
-* Figma
-* Картинки
+* Технологии
 
 **Интро**
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+Здесь будет проект о путешествии по России и не простой а адаптивный.
+Все изоброжения оптимизированны на [сайте доброй панды](https://tinypng.com).
 
-**Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+**Технологии**
 
-**Картинки**
+1. Grid Layout
+```css
+.photo-grid {
+  max-width: 1184px;
+  margin: 92px auto 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+}
+```
+2. Медиазапросы
+```css
+@media (max-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 14px;
+    margin-left: 48px;
+  }
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+  .cover__title {
+    margin-top: 195px;
+  }
 
-Удачи!
+  .cover__subtitle {
+    margin-bottom: 195px;
+  }
+
+  .footer {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+```
