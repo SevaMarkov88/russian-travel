@@ -1,0 +1,28 @@
+.cover__link {
+  display: grid;
+  justify-items: center;
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+  padding: 245px 0;
+  background-image: url(../../../images/cover__background.jpg);
+  background-size: cover;
+  max-width: 1180px;
+  min-height: 200px;
+}
+
+.cover__link::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+}
+
+.cover__link:hover:after {
+  opacity: 0.8;
+}

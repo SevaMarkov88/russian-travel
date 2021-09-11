@@ -2,15 +2,10 @@
   font-weight: 900;
   font-size: 4.5rem;
   line-height: 106%;
-  color: inherit;
-  text-decoration: none;
-  margin: 245px 0 0;
+  margin: 0;
   max-width: 560px;
   text-align: center;
   z-index: 1;
 }
 
-.cover__title:hover ~ .cover__overlay {
-  opacity: 0.8;
-}
 

@@ -3,9 +3,9 @@
   color: inherit;
   font-size: 1.5rem;
   line-height: 117%;
+  transition: opacity 0.5s ease;
 }
 
-.header__lang-link:first-child {
-  text-decoration: underline;
-  margin-right: 18px;
+.header__lang-link:hover {
+  opacity: 0.8;
 }
