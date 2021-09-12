@@ -8,7 +8,7 @@
   margin: 0;
 }
 
-@media (max-weight: 320px) {
+@media (max-wight: 320px) {
   .footer__copyright {
     line-height: 100%;
   }
