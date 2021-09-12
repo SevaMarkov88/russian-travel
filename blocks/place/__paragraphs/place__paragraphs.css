@@ -1,5 +1,6 @@
 @media (max-width: 675px) {
    .place__paragraphs {
      margin-left: 16px;
+     margin-right: 16px;
    }
 }
