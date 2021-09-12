@@ -10,7 +10,7 @@
 @media (max-width: 675px) {
   .footer__links {
     grid-template-columns: min-content;
-    gap: 32px;
+    gap: 27px;
     margin-bottom: 48px;
   }
 }

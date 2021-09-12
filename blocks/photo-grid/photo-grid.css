@@ -39,7 +39,6 @@
   .photo-grid {
     grid-template-columns: 288px;
     gap: 12px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 64px 16px 0;
   }
 }

@@ -2,6 +2,10 @@
   font-weight: 900;
   font-size: 4.5rem;
   line-height: 106%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   margin: 0;
 }
 
@@ -9,13 +13,14 @@
   .place__title {
     font-size: 2.625rem;
     line-height: 110%;
+    max-width: 330px;
   }
 }
 
 @media (max-width: 675px) {
   .place__title {
     font-size: 2rem;
-    line-height: 109%;
+    line-height: 111%;
     margin-left: 16px;
   }
 }

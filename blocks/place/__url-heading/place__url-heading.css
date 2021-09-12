@@ -3,7 +3,24 @@
    line-height: 170%;
    color: #aaa;
    letter-spacing: 2px;
-   margin: 0 0 14px;
    font-weight: normal;
    text-transform: uppercase;
+   margin-block-start: 0;
+   margin-block-end: 0;
+   margin-inline-start: 0;
+   margin-inline-end: 0;
+   margin: 0 0 14px;
 }
+
+@media (max-width: 768px) {
+   .place__url-heading {
+      line-height: 100%;
+   }
+ }
+ 
+@media (max-width: 320px) {
+   .place__url-heading {
+      line-height: 100%;
+      margin-bottom: 12px;
+   }
+ }
