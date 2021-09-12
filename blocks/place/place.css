@@ -22,9 +22,10 @@
    }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 600px) {
    .place {
      grid-template-columns: 320px;
      gap: 32px;
+     justify-content: center;
    }
 }
