@@ -8,4 +8,9 @@
   z-index: 1;
 }
 
-
+@media (max-width: 500px) {
+  .cover__title {
+    font-size: 2rem;
+    line-height: 109%;
+  }
+}

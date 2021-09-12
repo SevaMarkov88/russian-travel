@@ -5,4 +5,11 @@
   padding: 0;
   margin: 0;
   gap: 18px;
+  align-self: end;
+}
+
+@media (max-width: 320px) {
+  .header__lang-links {
+    grid-template-columns: repeat(2, 22px);
+  }
 }

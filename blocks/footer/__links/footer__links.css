@@ -6,3 +6,11 @@
   grid-template-columns: repeat(5, min-content);
   gap: 18px;
 }
+
+@media (max-width: 675px) {
+  .footer__links {
+    grid-template-columns: min-content;
+    gap: 32px;
+    margin-bottom: 48px;
+  }
+}

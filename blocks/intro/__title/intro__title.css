@@ -4,3 +4,9 @@
   line-height: 107%;
   margin: 0 0 40px;
 }
+
+@media (max-width: 675px) {
+  .intro__title {
+    font-size: 2rem;
+  }
+}

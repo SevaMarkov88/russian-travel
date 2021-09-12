@@ -6,3 +6,10 @@
   margin: 32px 0 0;
   z-index: 1;
 }
+
+@media (max-width: 500px) {
+  .cover__subtitle {
+    font-size: 0.875rem;
+    line-height: 114%;
+  }
+}

@@ -3,3 +3,9 @@
   text-align: center;
   max-width: 984px;
 }
+
+@media (max-width: 320px) {
+  .lead {
+    margin-top: 48px;
+  }
+}
