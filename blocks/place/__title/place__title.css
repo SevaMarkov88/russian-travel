@@ -1,6 +1,6 @@
 .place__title {
   font-weight: 900;
-  font-size: 4.5rem;
+  font-size: 72px;
   line-height: 106%;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -11,7 +11,7 @@
 
 @media (max-width: 768px) {
   .place__title {
-    font-size: 2.625rem;
+    font-size: 42px;
     line-height: 110%;
     max-width: 330px;
   }
@@ -19,8 +19,8 @@
 
 @media (max-width: 675px) {
   .place__title {
-    font-size: 2rem;
-    line-height: 111%;
+    font-size: 32px;
+    line-height: 109%;
     margin-left: 16px;
   }
 }
