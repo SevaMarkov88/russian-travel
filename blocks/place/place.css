@@ -22,10 +22,10 @@
    }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
    .place {
-     grid-template-columns: 320px;
+     grid-template-columns: minmax(320px, 1fr);
      gap: 32px;
-     justify-content: center;
+     justify-items: stretch;
    }
 }

@@ -29,9 +29,9 @@
  }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
   }
 }
 
