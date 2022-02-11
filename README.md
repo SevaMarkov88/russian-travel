@@ -50,3 +50,10 @@
   }
 }
 ```
+## Инструкция по установке:
+
+Клонировать репозиторий:
+
+`
+git clone https://github.com/SevaMarkov88/russian-travel.git
+`
