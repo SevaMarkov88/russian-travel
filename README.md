@@ -1,17 +1,21 @@
-# Проект: Путешествие по России
+# Проектная работа: "Путешествие по России".
 
-### Обзор
-* Интро
-* Технологии
-* Сслыка на Git Pages
+## Создана в рамках учебы в [Яндекс.Практикум](https://praktikum.yandex.ru/) на курсе ["Веб-разработчик"](https://praktikum.yandex.ru/web/).
 
-**Интро**
 
-Здесь будет проект о путешествии по России и не простой а адаптивный.
+## Описание:
+
+Проект о путешествии по России. Проект полностью адаптивный и подстраивается под любое разрешение экрана устройства.
 Все изоброжения оптимизированны на [сайте доброй панды](https://tinypng.com).
 
+[Посмотреть на GitHub Pages](https://sevamarkov88.github.io/russian-travel/)
 
-**Технологии**
+## Технологии:
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
+![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
 
 1. Grid Layout
 ```css
@@ -46,5 +50,3 @@
   }
 }
 ```
-**Git Pages**
-[Вооот тут сайт можно посмотреть](https://sevamarkov88.github.io/russian-travel/)
